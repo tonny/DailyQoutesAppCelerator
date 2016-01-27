@@ -32,7 +32,7 @@ function QuotesView() {
 		Cloud.Users.logout(function (e) {
 		    if (e.success) {
 		        //alert('Success: Logged out');
-		        //self.close();
+		        self.close();
 		        var loginWindow = require('/ui/common/LoginView');
 				var loginWindowInstance = new loginWindow();
 				self.add(loginWindowInstance);
