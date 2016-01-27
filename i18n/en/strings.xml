@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<string name="welcome">Welcome to %s!</string>
+	<string name="loginError">Upps!!</string>
+	<string name="msgPasswordEmpty">Fill the password field</string>
+	<string name="msgUsernameEmpty">Fill the username</string>
+	<string name="internetError">Upss!!</string>
+	<string name="msgInternetError">Fill the username</string>
+	<string name="btnLogin">Login</string>
+	<string name="btnLogout">Login</string>
 </resources>

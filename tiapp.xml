@@ -5,7 +5,7 @@
     <version>1.0</version>
     <publisher>antonio</publisher>
     <url>http://puntoslash.com</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2016 by antonio</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -35,6 +35,10 @@
                 <false/>
                 <key>UIStatusBarStyle</key>
                 <string>UIStatusBarStyleDefault</string>
+                <key>CFBundleLocalizations</key>
+                <array>
+                    <string>en</string>
+                </array>
             </dict>
         </plist>
     </ios>
