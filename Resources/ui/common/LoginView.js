@@ -15,10 +15,11 @@ function LoginView() {
 	//label using localization-ready strings from <app dir>/i18n/en/strings.xml
 
 	//create a navigation UI
+	/*
 	var viewUI = Ti.UI.iOS.createNavigationWindow({
 			window: self
 		});
-	
+	*/
 	// create view
 	var view = Ti.UI.createView({
 	   borderRadius:10,
@@ -118,8 +119,8 @@ function LoginView() {
 	//view.show();
 	self.add(view);
 
-	//return view;
-	return viewUI;
+	return self;
+	//return viewUI;
 }
 
 module.exports = LoginView;

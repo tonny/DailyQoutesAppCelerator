@@ -58,6 +58,7 @@ if (Ti.version < 1.8) {
 	            'first name: ' + user.first_name + '\n' +
 	            'last name: ' + user.last_name);
 	         var Window;
+	         /*
 			  if (isTablet) {
 			    Window = require('ui/tablet/ApplicationWindow');
 			  } else {
@@ -69,12 +70,15 @@ if (Ti.version < 1.8) {
 			   		Window = require('ui/common/QuotesView');
 			    }
 			  }
-			   new Window().open();	   
+			  */
+			  Window = require('ui/common/QuotesView');
+			  new Window().open();	   
 	    } else {
 	    	
 	        console.log('Error:\n' +
 	            ((e.error && e.message) || JSON.stringify(e)));
 	        var Window;
+	        /*
 			  if (isTablet) {
 			    Window = require('ui/tablet/ApplicationWindow');
 			  } else {
@@ -86,6 +90,8 @@ if (Ti.version < 1.8) {
 					Window = require('ui/common/LoginView');
 			    }
 			  }
+			  */
+			 Window = require('ui/common/LoginView');
 			  new Window().open();
 	    }
 	});

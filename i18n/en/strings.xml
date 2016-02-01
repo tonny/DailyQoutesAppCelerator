@@ -7,5 +7,6 @@
 	<string name="internetError">Upss!!</string>
 	<string name="msgInternetError">Fill the username</string>
 	<string name="btnLogin">Login</string>
-	<string name="btnLogout">Login</string>
+	<string name="btnLogout">LogOut</string>
+	<string name="btnShareQoutes">Share Quotes</string>
 </resources>
